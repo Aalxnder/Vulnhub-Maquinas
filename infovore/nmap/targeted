@@ -1,0 +1,12 @@
+# Nmap 7.98 scan initiated Wed Jun 10 17:33:36 2026 as: /usr/lib/nmap/nmap --privileged -sCV -p 80 -oN targeted 192.168.100.53
+Nmap scan report for 192.168.100.53
+Host is up (0.00046s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.38 ((Debian))
+|_http-server-header: Apache/2.4.38 (Debian)
+|_http-title: Include me ...
+MAC Address: 08:00:27:A8:C1:14 (Oracle VirtualBox virtual NIC)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jun 10 17:33:43 2026 -- 1 IP address (1 host up) scanned in 7.49 seconds
